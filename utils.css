@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.my-10 {
+
+    margin-top: 10px;
+}
+
+.mx-12 {
+
+    margin-left: 12px;
+}
+
+.my-30 {
+
+    margin-top: 30px;
+}
+
+.my-16 {
+
+    margin-top: 16px;
+}
+
+.my-17 {
+
+    margin-top: 17px
+}
+
+.p-25 {
+
+    padding: 25px;
+}
+
+.h-100 {
+
+    height: 100vh;
+}
+
+.w-100 {
+
+    width: 100%;
+}
+
+.gap-12 {
+
+    gap: 12px;
+}
+.container {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--white-color);
+    flex-wrap: wrap;
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white-color);
+    flex-wrap: wrap;
+}
+
+h1 {
+
+    color: var(--white-color);
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+h3 {
+
+    text-align: center;
+    font-size: 28px;
+}
+
+.poinrt {
+
+    cursor: pointer;
+}
+
+.bg-dark {
+
+    background-color: var(--primary-color);
+}
+
+.span1 {
+
+    padding: 20px 0px;
+    background-color: var(--secondary-color);
+}
+
+.span2 {
+
+    padding: 20px 0px;
+    background-color: var(--primary-color);
+}
+
+.btn {
+
+    color: var(--white-color);
+    padding: 10px;
+    border: 2px solid var(--primary-green);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover {
+
+    cursor: pointer;
+    background: var(--primary-green);
+    border: 2px solid var(--secondary-color);
+}
+
+.btn-seconary {
+
+    color: var(--white-color);
+    padding: 10px;
+    border: 2px solid var(--primary-green);
+    background-color: var(--primary-green);
+    border-radius: 10px;
+    transition: 0.2s ease-in;
+}
+
+.btn-seconary:hover {
+
+    cursor: pointer;
+    background-color: var(--secondary-color);
+}
+
+.card {
+
+    display: flex;
+    height: 134px;
+    width: 123px;
+    background-color: var(--white-color);
+    padding: 23px;
+    border-radius: 5px;
+}
+
+.bg-img {
+
+    background-image: url(/Images/web.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-position: center;
+}
+
+.input-box {
+
+    /* color: var(--white-color);
+    border: 2px solid var(--primary-green);
+    border-radius: 8px; */
+    margin-bottom: 18px;
+    color: var(--white-color);
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid var(--primary-green);
+   
+    background-color: var(--secondary-color);
+}
+
+.input-box:focus {
+
+    outline: none;
+}
+
+.icons {
+
+    height: 30px;
+    width: 30px;
+}
