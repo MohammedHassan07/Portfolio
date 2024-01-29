@@ -63,6 +63,10 @@
     flex-wrap: wrap;
 }
 
+.t-center {
+
+    text-align: center;
+}
 h1 {
 
     color: var(--white-color);
