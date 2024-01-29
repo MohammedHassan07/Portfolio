@@ -36,3 +36,9 @@ var typed = new Typed('#role', {
     loop: true,
     loopCount: Infinity,
 });
+
+const linkedIn = document.getElementById('linked-in')
+linkedIn.addEventListener('click', () => {
+
+    window.location.href = 'https://www.linkedin.com/in/mohammed-hassan-343b00215'
+})
